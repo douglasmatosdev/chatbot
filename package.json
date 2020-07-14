@@ -1,0 +1,15 @@
+{
+	"name": "script-run-all-services",
+  "version": "0.1.0",
+  "private": true,
+	"scripts": {
+		"dev:bot": "run-p -l dev:bot:bridge & run-p -l dev:bot:chatbot-server & run-p -l dev:bot:webchat_client",
+		"dev:bot:bridge": "nodemon ./bridge/bridge.js",
+		"dev:bot:chatbot-server": "nodemon ./chatbot-server/app.js",
+		"dev:bot:webchat_client": "cd webchat-client && yarn start "
+	},
+	"devDependencies": {
+		"nodemon": "2.0.2",
+		"yarn-run-all": "^3.1.1"
+	}
+}

@@ -1,0 +1,75 @@
+.live-chat-container-initial {
+	z-index: 9999;
+	margin-bottom: 0px;
+	/*	border-radius: 0 0 10px 10px;
+border-right-style: solid;
+border-left-style: solid;
+border-bottom-style: solid;
+border-right-width: 1px;
+border-left-width: 1px;
+border-bottom-width: 1px;
+border-right-color: #264299;
+border-left-color: #00A5DD;
+border-bottom-color: #00A5DD; */
+	margin-bottom: 0px;
+	padding-bottom: 3px;
+	bottom: 10px;
+	right: 20px;
+	position: fixed;
+	width: 50px;
+	padding: 0 !important;
+
+}
+
+.chatbot-head-bar-initial {
+	/* background: #38b6ab; */
+	background: url(../images/avatar.png) no-repeat;
+	background-size: contain;
+	border: solid 1px #606a80;
+	/* border-radius: 10px 10px 0 0; */
+	border-radius: 100%;
+	color: #fdfefd;
+	cursor: pointer;
+	padding: 2px 2px;
+}
+
+.welcome-bubble-initial {
+	color: #016aba;
+	font-size: 20px;
+	font-family: 'Maven Pro', sans-serif;
+	left: -130px;
+	line-height: 100px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	text-align: center;
+	top: -130px;
+	width: 200px;
+	height: 141px;
+}
+
+.welcome-bubble-text-initial {
+	color: #766e80;
+	font-size: 20px;
+	font-family: 'Maven Pro', sans-serif;
+	left: -130px;
+	line-height: 100px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	text-align: center;
+	top: -120px;
+	width: 200px;
+}
+.chat-status-initial {
+	margin: 15px;
+	display: inline-block;
+	border: 1px solid black;
+	/* margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	margin-left: 10px; */
+	background-color: #BABDB6;
+	font-size: 15px;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
